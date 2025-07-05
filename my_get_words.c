@@ -10,8 +10,9 @@ void my_get_words(char *sentance) {
         if (sentance[i] == '\t' | sentance[i] == ' ') {
             print_char('\n');
         }
-        while (sentance[i] == '\t' | sentance[i] == ' ') {
+        while (sentance[i+1] == '\t' | sentance[i+1] == ' ') {
             i++;
         }
+        
     }
 };
