@@ -21,11 +21,3 @@ void my_fibonacci(int minimum, int maximum) {
         b = c;
     }
 };
-
-int main(void)
-{
-int minimum = 0;
-int maximum = 10;
-my_fibonacci(minimum, maximum);
-return 0;
-}

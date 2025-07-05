@@ -3,7 +3,7 @@
 void my_sort(int *nlist, int size) {
     int tmp;
     int i;
-    for (i = 0;  i < size; i++) {
+    for (i = 0;  i < size-1; i++) {
         int mini = i;
         for (int j = i+1; j <= size; j++) {
             if (nlist[j] < nlist[mini]) {
