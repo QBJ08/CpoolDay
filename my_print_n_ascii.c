@@ -7,7 +7,7 @@ void my_print_n_ascii(int howMany){
     else if (howMany>96) {
         howMany = 0;
     }
-    for (int i=32; i<33+howMany; i++){
+    for (int i=33; i<33+howMany; i++){
         print_char(i);
     }
 
