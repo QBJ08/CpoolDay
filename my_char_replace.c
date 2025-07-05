@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 char *my_char_replace(char *origin, char toFind, char toReplace) {
     int length = 0;
     while (origin[length]) length++;
