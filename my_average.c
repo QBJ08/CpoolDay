@@ -1,6 +1,6 @@
 float my_average(int *grades, int count) {
     int total = 0;
-    double average;
+    float average;
 
     for (int i = 0; i<count; i++) {
         total += grades[i];
@@ -8,5 +8,4 @@ float my_average(int *grades, int count) {
   
     average = total/count;
     return average;
-    
 };
